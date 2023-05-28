@@ -1,0 +1,32 @@
+{
+  "name": "f8learningnodejs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss --output src/public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhucMaii/nodejs_learningBlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PhucMaii/nodejs_learningBlog/issues"
+  },
+  "homepage": "https://github.com/PhucMaii/nodejs_learningBlog#readme",
+  "description": "",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
